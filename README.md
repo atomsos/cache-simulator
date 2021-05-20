@@ -25,11 +25,17 @@ optional arguments:
 ## Supported commands
 
 * read addr
+  * read data from addr
 * write addr data
+  * write data to addr
 * seqread start_addr size
+  * sequential read from start_addr with size 
 * seqwrite start_addr size
+  * sequential write to start_addr with size
 * randread size
+  * random read size of data
 * randwrite size
+  * random write size of data
 * stats
   * show stats of cache, hit/miss
 * clear
