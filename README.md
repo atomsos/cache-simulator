@@ -2,6 +2,8 @@
 
 This simulator is used for testing cache hit/miss, no data is stored actually.
 
+https://github.com/jaminthorns/cpu-cache-simulator for reference
+
 ## Usage
 ```bash
 $ python ./simulator.py -h
