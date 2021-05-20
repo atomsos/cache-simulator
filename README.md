@@ -1,5 +1,8 @@
 # cache-simulator
 
+This simulator is used for testing cache hit/miss, no data is stored actually.
+
+## Usage
 ```bash
 $ python ./simulator.py -h
 usage: simulator.py [-h] Memory Cache Block Mapping REPLACE Write
@@ -16,3 +19,17 @@ positional arguments:
 
 optional arguments:
 ```
+
+## Supported commands
+
+* read addr
+* write addr data
+* seqread start_addr size
+* seqwrite start_addr size
+* randread size
+* randwrite size
+* stats
+  * show stats of cache, hit/miss
+* clear
+  * clear all cache
+
