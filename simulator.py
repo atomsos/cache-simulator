@@ -217,7 +217,7 @@ def get_args():
                         help='Cache mapping, e.g. 8-ways')
     parser.add_argument('REPLACE', metavar='REPLACE', type=str, choices=Cache_replacement_policy,
                         help='Cache policy, ' + ','.join(Cache_replacement_policy))
-    parser.add_argument('Write', type=str, choices=Write_policies,
+    parser.add_argument('Write', metavar='Write', type=str, choices=Write_policies,
                         help='Write policy, ' + ','.join(Write_policies))
     args = parser.parse_args()
     return args
